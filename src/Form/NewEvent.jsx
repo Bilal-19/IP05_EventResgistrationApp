@@ -47,7 +47,7 @@ export default function NewEvent() {
         <>
             <div className="container-fluid">
                 <div className="row">
-                    <div className="col-4 mx-auto justify-content-center card p-2 mt-5">
+                    <div className="col-4 mx-auto justify-content-center card p-2 mt-5" style={{ width: '30rem' }}>
 
                         <form onSubmit={formikData.handleSubmit} className='needs-validation' noValidate>
                             <h5 className='text-center'>REGISTRATION FORM</h5>
@@ -177,7 +177,7 @@ export default function NewEvent() {
                             {/*  */}
                             <div className="row">
                                 <div className="col-md-3">
-                                    <button type='submit' className='btn btn-success mx-2' onClick={notify}>Register</button></div>
+                                    <button type='submit' className='btn btn-success mx-2 mt-2' onClick={notify}>Submit</button></div>
                             </div>
                             <ToastContainer />
                         </form>

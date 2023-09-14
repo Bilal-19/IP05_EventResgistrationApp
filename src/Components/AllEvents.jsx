@@ -39,7 +39,7 @@ export default function AllEvents() {
                         database.map((value, i) => {
                             return (
                                 <>
-                                    <div className="card mx-4 mt-2" style={{ width: '400px ', height: '310px', borderRadius: '1px solid black' }}>
+                                    <div className="card mx-4 mt-2" style={{ width: '360px ', height: '310px', borderRadius: '1px solid black' }}>
                                         <img src={value.thumbnailImage} key={i} className='card-img-top' height={200} />
                                         <div className="card-body">
                                             <div className="card-title">
